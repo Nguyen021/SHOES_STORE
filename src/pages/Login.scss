@@ -1,0 +1,44 @@
+
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    .Auth-form {
+      width: 420px;
+      box-shadow: 1px 1px 10px RGB(0 0 0 / 16%) ;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      border-radius: 8px;
+      background-color: white;
+    }
+    
+    .content {
+      padding-left: 12%;
+      padding-right: 12%;
+      input:focus{
+        outline: none !important;
+        border: 1px solid #6c757d !important;
+        
+      }
+    }
+    
+    .title {
+      text-align: center;
+      margin-bottom: 1em;
+      font-size: 24px;
+      color: rgb(34, 34, 34);
+      font-weight: 600;
+    }
+    
+   
+    
+    .forgot-password{
+      text-decoration: none;
+      color: #6c757d !important;
+    }
+  }
+  
+  
